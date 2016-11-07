@@ -14,3 +14,5 @@ var formattedExample = $("#thisisanid")
 formattedExample.text("logArgs()")
 
 consoleLogExample.html(formattedExample)
+
+formattedExample.html(logArgs())
