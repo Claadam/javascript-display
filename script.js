@@ -1,4 +1,5 @@
-// demo function
+console.log("page loaded")
+
 function logArgs(args) {
   var a = 1
   console.log(args)
