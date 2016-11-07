@@ -11,6 +11,6 @@ var consoleLogExample = $("how do I get the element where I want to put the exam
 
 var formattedExample = $("#thisisanid")
 
-formattedExample.text(contents)
+formattedExample.text(logArgs())
 
 consoleLogExample.html(formattedExample)
