@@ -5,12 +5,12 @@ function logArgs(args) {
   console.log(args)
 }
 
-var functionString = "how do I get the function as a string?"
+var functionString = "#thisisanid"
 
-var consoleLogExample = $("how do I get the element where I want to put the example?")
+var consoleLogExample = $("#thisisanid")
 
 var formattedExample = $("#thisisanid")
 
-formattedExample.text(logArgs())
+formattedExample.text("logArgs()")
 
 consoleLogExample.html(formattedExample)
