@@ -11,8 +11,8 @@ var consoleLogExample = $("#thisisanid")
 
 var formattedExample = $("#thisisanid")
 
-formattedExample.text("logArgs()")
+formattedExample.text(logArgs)
 
 consoleLogExample.html(formattedExample)
 
-formattedExample.html(logArgs())
+console.log(logArgs)
