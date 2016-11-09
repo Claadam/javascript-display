@@ -11,6 +11,10 @@ function logArgs(args) {
 //
 //var formattedExample = $("#thisisanid")
 
+var consoleLogExample = logArgs
+
+$("#")
+
 formattedExample.text(logArgs)
 
 consoleLogExample.html(formattedExample)
