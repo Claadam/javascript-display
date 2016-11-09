@@ -10,8 +10,8 @@ var consoleLogBox = $("<pre>")
 consoleLogBox.text(consoleLogString)
 $("#firstbox").append(consoleLogBox)
 
-function onePlus(number) {
-  return number + 1
+function onePlus(arg) {
+  return arg + 1
 }
 
 var onePlusString = onePlus.toString()
