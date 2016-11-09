@@ -13,7 +13,8 @@ function logArgs(args) {
 
 var consoleLogExample = logArgs
 
-$("#")
+var consoleLogBo
+var $("#thisisanid") = consoleLogExample
 
 formattedExample.text(logArgs)
 
