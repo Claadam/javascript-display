@@ -10,7 +10,7 @@ var consoleLogBox = $("<pre>")
 consoleLogBox.text(consoleLogString)
 $("#firstbox").append(consoleLogBox)
 
-
+function 
 
 //var functionString = "#thisisanid"
 //
