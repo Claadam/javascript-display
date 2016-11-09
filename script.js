@@ -5,7 +5,9 @@ function logArgs(args) {
   console.log(args)
 }
 
-var consoleLogString = logArgs().toString
+var consoleLogString = logArgs.toString()
+var consoleLogBox = $("#firstbox")
+consoleLogBox.text(consol)
 
 //var functionString = "#thisisanid"
 //
