@@ -10,7 +10,14 @@ var consoleLogBox = $("<pre>")
 consoleLogBox.text(consoleLogString)
 $("#firstbox").append(consoleLogBox)
 
-function 
+function onePlus(number) {
+  return number + 1
+}
+
+var onePlusString = onePlus.toString()
+var onePlusBox = $("<pre>")
+consoleLoBox.text(consoleLogString)
+$("#secondbox").append(consoleLogBox)
 
 //var functionString = "#thisisanid"
 //
