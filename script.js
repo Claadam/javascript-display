@@ -5,16 +5,15 @@ function logArgs(args) {
   console.log(args)
 }
 
+var consoleLogString = logArgs().toString
+
 //var functionString = "#thisisanid"
 //
 //var consoleLogExample = $("#thisisanid")
 //
 //var formattedExample = $("#thisisanid")
 
-var consoleLogExample = logArgs
 
-var consoleLogBox = $("#thisisanid")
-consoleLogBox.html(consoleLogExample)
 
 //formattedExample.text(logArgs)
 //
