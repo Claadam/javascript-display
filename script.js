@@ -13,11 +13,11 @@ function logArgs(args) {
 
 var consoleLogExample = logArgs
 
-var consoleLogBo
-var $("#thisisanid") = consoleLogExample
+var consoleLogBox = $("#thisisanid")
+consoleLogBox.html(consoleLogExample)
 
-formattedExample.text(logArgs)
-
-consoleLogExample.html(formattedExample)
-
+//formattedExample.text(logArgs)
+//
+//consoleLogExample.html(formattedExample)
+//
 console.log(logArgs)
