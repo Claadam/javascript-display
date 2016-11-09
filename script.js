@@ -16,8 +16,8 @@ function onePlus(number) {
 
 var onePlusString = onePlus.toString()
 var onePlusBox = $("<pre>")
-consoleLoBox.text(consoleLogString)
-$("#secondbox").append(consoleLogBox)
+onePlusBox.text(onePlusString)
+$("#secondbox").append(onePlusBox)
 
 //var functionString = "#thisisanid"
 //
