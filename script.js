@@ -1,5 +1,3 @@
-console.log("page loaded")
-
 function logArgs(args) {
   var a = 1
   console.log(args)
@@ -19,16 +17,26 @@ var onePlusBox = $("<pre>")
 onePlusBox.text(onePlusString)
 $("#secondbox").append(onePlusBox)
 
-//var functionString = "#thisisanid"
-//
-//var consoleLogExample = $("#thisisanid")
-//
-//var formattedExample = $("#thisisanid")
+function rand() {
+ return Math.floor(Math.random()*10) 
+}
 
+function timesTwo(rand) {
+  return rand()*2
+}
 
+var timesTwoString = rand.toString() + "\n" + timesTwo.toString()
+var timesTwoBox = $("<pre>")
+timesTwoBox.text(timesTwoString)
+$("#thirdbox").append(timesTwoBox)
 
-//formattedExample.text(logArgs)
-//
-//consoleLogExample.html(formattedExample)
-//
-console.log(logArgs)
+function findjQuery() {
+  var ID = $("#exampleID")
+  var Class = $(".exampleClass")
+}
+
+var jQueryString = findjQuery.toString()
+var jQueryBox = $("<pre>")
+jQueryBox.text(jQueryString)
+$("#fourthbox").append(jQueryBox)
+
