@@ -51,5 +51,12 @@ firebaseBox.text(firebaseString)
 $("#fifthbox").append(firebaseBox)
 
 function animation () {
- $("#sampleImage") 
+  $("#sampleImage").animate({left: "+=32"}, 15)
+  $("#sampleImage").animate({top: "+=315"}, 1500)
+  $("#sampleImage").animate({height: "+=50"}, 150)
 }
+
+var animationString = animation.toString()
+var animationBox = $("<pre>")
+animationBox.text(animationString)
+$("#seventhbox").append(animationBox)
