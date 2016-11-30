@@ -41,5 +41,11 @@ jQueryBox.text(jQueryString)
 $("#fourthbox").append(jQueryBox)
 
 function storeData () {
-  
+  var data = $("#exampleTextBox")
+  storeValue (example, data)
+}
 
+var f = findjQuery.toString()
+var jQueryBox = $("<pre>")
+jQueryBox.text(jQueryString)
+$("#fourthbox").append(jQueryBox)
