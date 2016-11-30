@@ -45,7 +45,7 @@ function storeData () {
   storeValue (example, data)
 }
 
-var f = findjQuery.toString()
-var jQueryBox = $("<pre>")
-jQueryBox.text(jQueryString)
-$("#fourthbox").append(jQueryBox)
+var firebaseString = storeData.toString()
+var firebaseBox = $("<pre>")
+firebaseBox.text(firebaseString)
+$("#fifthbox").append(firebaseBox)
