@@ -5,3 +5,11 @@
 .text-center {
  text-align: center; 
 }
+
+.element {
+  border: 2px solid black;
+}
+
+#element{
+  background:#fc1414 
+}
