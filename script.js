@@ -40,3 +40,6 @@ var jQueryBox = $("<pre>")
 jQueryBox.text(jQueryString)
 $("#fourthbox").append(jQueryBox)
 
+function storeData () {
+  
+
