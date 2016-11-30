@@ -51,7 +51,7 @@ firebaseBox.text(firebaseString)
 $("#fifthbox").append(firebaseBox)
 
 function centerDiv () {
- $("sampleDiv").html(<div class="col md-6"></)
+ $("sampleDiv").html("<div class='col md-5'></div> <div class="col md-2">")
 }
 
 function animation () {
