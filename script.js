@@ -51,8 +51,13 @@ firebaseBox.text(firebaseString)
 $("#fifthbox").append(firebaseBox)
 
 function centerDiv () {
- $("sampleDiv").html("<div class='col md-5'></div> <div class="col md-2">")
+ $("sampleDiv").html("<div class='col md-5'></div> <div class='col md-2'> this is centered </div>")
 }
+
+var centerDivString = centerDiv.toString()
+var centerDivBox = $("<pre>")
+centerDivBox.text(centerDivString)
+$("#sixthbox").append(centerDivBox)
 
 function animation () {
   $("#sampleImage").animate({left: "+=32"}, 15)
