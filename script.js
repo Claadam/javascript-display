@@ -49,3 +49,7 @@ var firebaseString = storeData.toString()
 var firebaseBox = $("<pre>")
 firebaseBox.text(firebaseString)
 $("#fifthbox").append(firebaseBox)
+
+function animation () {
+ $("#sampleImage") 
+}
