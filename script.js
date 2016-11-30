@@ -50,7 +50,9 @@ var firebaseBox = $("<pre>")
 firebaseBox.text(firebaseString)
 $("#fifthbox").append(firebaseBox)
 
-function 
+function centerDiv () {
+ $("sampleDiv").html(<div class="col md-6"></)
+}
 
 function animation () {
   $("#sampleImage").animate({left: "+=32"}, 15)
